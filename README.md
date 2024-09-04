@@ -45,10 +45,12 @@ Follow these instructions to download, set up, and run the Task Manager applicat
 ### Running the Application
 
 Once the setup is complete, you can run the application using the following command:
+    
     ```bash
     python task_manager.py
 
-Run the tests with
+Run the tests with:
+    
     ```bash
     python -m unittest test_task_manager.py
 
