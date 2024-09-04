@@ -29,7 +29,7 @@ Follow these instructions to download, set up, and run the Task Manager applicat
 4. Activate the Virtual Environment:
     - For Linux/macOS: 
         ```bash
-        cd task_manager
+        source myenv/bin/activate
     - For Windows
         ```bash
         myenv\Scripts\activate
