@@ -22,15 +22,11 @@ Follow these instructions to download, set up, and run the Task Manager applicat
     ```bash
     cd task_manager
 
-3. Navigate to the Project Directory:
-    ```bash
-    cd task_manager
-
-4. Create a Virtual Environment (if it’s not already there):
+3. Create a Virtual Environment (if it’s not already there):
     ```bash
     python3 -m venv myenv
 
-5. Activate the Virtual Environment:
+4. Activate the Virtual Environment:
     - For Linux/macOS: 
         ```bash
         cd task_manager
@@ -38,20 +34,18 @@ Follow these instructions to download, set up, and run the Task Manager applicat
         ```bash
         myenv\Scripts\activate
 
-6. Install Required Dependencies:
+5. Install Required Dependencies:
     ```bash
     pip install -r requirements.txt
 
 ### Running the Application
 
-Once the setup is complete, you can run the application using the following command:
+Once the setup is complete, you can run the application using the following command:    
     
-    ```bash
     python task_manager.py
 
-Run the tests with:
+Run the tests with:    
     
-    ```bash
     python -m unittest test_task_manager.py
 
 
